@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="shortcut icon" href="j-letter-logo-or-j-text-logo-and-j-word-logo-design-free-png.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="j-letter-logo-or-j-text-logo-and-j-word-logo-design-free-png.webp" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>An Aspiring Software Developer</p>
+                <h1>Hi, I'm <span>Jasmine</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="announcement_image.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello,
+                        I'm Jasmine Shaik,
+                        
+                        I'm a highly motivated and enthusiastic and I am Currently having strong academic background in Computer Science Engineering - ARTIFICIAL INTELLIGENCE (CSE - AI). 
+                        
+                        Passionate about IT, I am eager to embark on a successful career journey and contribute to a dynamic organization. With a solid foundation in Java, C++, SQL and Python with AI, gained experience through Internships.
+                        
+                        My ability to adapt quickly, think critically, and work collaboratively makes me an excellent team player. I possess excellent communication skills and a strong work ethic, allowing me to thrive in fast-paced environments.
+                        
+                        Seeking opportunities to apply my knowledge, learn and grow, I am committed to making a meaningful impact in the Information Technology.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('internships')">Internships</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br></li>
+                            <li><span>C++</span><br></li>
+                            <li><span>SQL</span><br></li>
+                            <li><span>C Language</span><br></li>
+                            <li><span>Python with Machine Learning</span><br></li>
+                            <li><span>HTML & CSS</span><br></li>
+                            <li><span>R Programming</span><br></li>
+                            <li><span>AI with Python</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internships">
+                        <ul>
+                            <li><span>November - 2023</span><br>Intern at Salesforce</li>
+                            <li><span>September - 2023</span><br>MathWorks Virtual Internship Program by AICTE</li>
+                            <li><span>August - 2023</span><br>Python Intern at InternPay</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Present</span><br>B.Tech CSE-AI in PBR VITS</li>
+                            <li><span>2021</span><br>Higher Secondary(12th) in Sree Chaitanya Jr. College</li>
+                            <li><span>2019</span><br>Secondary Education in Jaya Usha High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Portfolio</h1>
+            <div class="services-list1">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Face recognition using Python</h2>
+                    <p style="text-align: justify; word-spacing: 2px">Face is most commonly used biometric to recognize people. Face recognition has received substantial attention from researchers 
+                        due to human activities found in various applications of security like airport, criminal detection, face tracking, forensic etc. 
+                        Compared to other biometric traits like palm print, Iris, finger print etc., face biometric</p>
+                    <a href="#" style="font-weight: bold;">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Travel Website</h2>
+                    <p style="text-align: justify; word-spacing: 2px;">Tourism can be considered as most favorite pass time when people get free time.
+                        Several travel organizations are available on the web. The people or the tourist select their own Travel Package according to their personal interest. 
+                        Main Objective of this system is to provide Online Registration, Tour Package Information, Tour Booking and Searching Facility for Customer and provide good Packages to Customers. 
+                        If any customer as to enquire about the package then they can get instant reply by asking their enquiry they will be contacted immediately through their given mail and phone no for the package booking.
+                        It is a 24 x 7 service availble to the touristers.</p>
+                    <a href="#" style="font-weight: bold;">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Certifications</h1>
+            <div class="services-list">
+                <div>
+                    <h2 style="text-align: center;">Java Basics - HackerRank</h2>
+                    <img src="img/java.jpg" alt="">
+                </div>
+                <div>
+                    <h2 style="text-align: center;">Python Basics - HackerRank</h2>
+                    <img src="img/python.jpg" alt="">
+                </div>
+                <div>
+                    <h2 style="text-align: center;">Azure AI Completion Badge</h2>
+                    <img src="img/azure ai.jpeg" alt="">
+                </div>
+                <div>
+                    <h2 style="text-align: center;">C Programming</h2>
+                    <img src="img/alison.jpeg" alt="">
+                </div>
+                <div>
+                    <h2 style="text-align: center;">MathWorks Virtual Internship</h2>
+                    <img src="img/mathworks.jpg" alt="">
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> jlearner94@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 1234567890</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
